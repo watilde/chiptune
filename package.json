@@ -3,8 +3,11 @@
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "chiptune": "./bin/chiptune-cli.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard"
   },
   "repository": {
     "type": "git",
@@ -12,9 +15,18 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/watilde/chiptune/issues"
   },
-  "homepage": "https://github.com/watilde/chiptune#readme"
+  "homepage": "https://github.com/watilde/chiptune#readme",
+  "devDependencies": {
+    "standard": "^7.1.1",
+    "web-audio-engine": "^0.8.5"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "speaker": "^0.3.0",
+    "update-notifier": "^0.7.0"
+  }
 }
