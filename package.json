@@ -13,8 +13,8 @@
     "type": "git",
     "url": "git+https://github.com/watilde/chiptune.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["chiptune"],
+  "author": "Daijiro Wachi",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/watilde/chiptune/issues"
